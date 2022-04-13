@@ -8,6 +8,7 @@ Imagemagick by default outputs 32bbp, BI_BITFIELDS, true colour (not palletized,
 ### File header
   * Offset - from start of file to first byte of pixel array
 <hr>
+
 ### BITMAPINFOHEADER
 Most common DIB header - 40 bytes
   * 1C - bbp - 32
@@ -16,12 +17,16 @@ Most common DIB header - 40 bytes
 Color table - ignore (set to 0 - 4 bytes)\
 Important colors - ignore (set to 0 - 4 bytes)\
 <hr>
+
 ### Bit mask
-Following important colors, bit masks are specified\
-This is the order in which RGBa data is provided in the pixel array\
+Order in which RGBa data is provided in the pixel array\
 Consists of 12 bytes - red, green, blue, alpha\
 Location of bit in each byte is where it is found in the pixel\
 Default - BGRa
+ * 0 0 1 0 - R
+ * 0 1 0 0 - G
+ * 1 0 0 0 - B
+ * 0 0 0 1 - a
 <hr>
 Important to note that the pixel array is encoded with data starting from the lower left hand corner of the image
   * Scans left to right
