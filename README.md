@@ -19,10 +19,11 @@ Important colors - ignore (set to 0 - 4 bytes)\
 <hr>
 
 ### Bit mask
-Order in which RGBa data is provided in the pixel array\
-Consists of 12 bytes - red, green, blue, alpha\
-Location of bit in each byte is where it is found in the pixel\
-Default - BGRa
+ * Order in which RGBa data is provided in the pixel array\
+ * Consists of 12 bytes - red, green, blue, alpha\
+ * Location of bit in each byte is where it is found in the pixel\
+
+**Default - BGRa**
  * 0 0 1 0 - R
  * 0 1 0 0 - G
  * 1 0 0 0 - B
