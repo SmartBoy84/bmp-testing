@@ -1,5 +1,5 @@
 Refer to [this](https://medium.com/sysf/bits-to-bitmaps-a-simple-walkthrough-of-bmp-image-format-765dc6857393) for 1, 2, 4, 8, 16 or 24bpp (bits/pixel) bitmap help - doesn't involve alpha channel\
-I'll be covering BI_BITFIELDS uncompressed\
+I'll be covering BI_BITFIELDS uncompressed
 
 
 Imagemagick by default outputs 32bbp, BI_BITFIELDS, true colour (not palletized, no color table) by default
