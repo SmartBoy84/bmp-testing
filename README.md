@@ -5,6 +5,7 @@ I'll be covering BI_BITFIELDS uncompressed\
 Imagemagick by default outputs 32bbp, BI_BITFIELDS, true colour (not palletized, no color table) by default
 
 ## Refer to [this](https://en.wikipedia.org/wiki/BMP_file_format)
+Chekout the 32bbp example at the end of the page
 ### File header
   * Offset - from start of file to first byte of pixel array
 <hr>
